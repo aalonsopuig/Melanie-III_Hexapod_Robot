@@ -8,12 +8,12 @@
 
 <font size="4"><b><i>Melanie-III&nbsp;</i></b></font>
       <p>By Alejandro Alonso Puig<br>
-      September2004<br>
+      September 2004<br>
  
 <hr>
 <i>Melanie-III was developed by Alejandro Alonso on September2004.&nbsp;</i><br />
 <br />
-Melanie is an hexapod robot of 3 degrees of freedom by leg, that by the novel design of legs it has, can transport several kilograms on its body without electrical power overload.<br />
+Melanie-III is an hexapod robot of 3 degrees of freedom by leg, that by the novel design of legs it has, can transport several kilograms on its body without electrical power overload.<br />
 <br />
 <p align="center"><img border="0" src="http://4.bp.blogspot.com/-3l92lLNt-Kg/UuOoSY3xTeI/AAAAAAAAJZU/NN8-IHNpoCs/s1600/melanie3.jpg" width="600" ></p>
 <br />
