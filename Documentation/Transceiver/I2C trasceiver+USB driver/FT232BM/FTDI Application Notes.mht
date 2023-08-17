@@ -1,0 +1,1584 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: FTDI Application Notes
+Date: Fri, 6 Aug 2004 20:16:45 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0030_01C47BF2.4BB4F8F0";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ftdichip.com/FTApp.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>FTDI Application Notes</TITLE>
+<META content=3DFrontPage.Editor.Document name=3DProgId>
+<META content=3DFred.Dart@ftdi.co.uk name=3Dreply-to>
+<META content=3DGeneral name=3DRating>
+<META content=3Den name=3DLanguage>
+<META content=3DGlobal name=3Ddistribution>
+<META content=3D"? FTDI 2001" name=3DCopyright>
+<META content=3DHardware name=3DClassification>
+<META=20
+content=3D"USB RS232, USB Serial, USB Legacy, USB drivers, USB devices, =
+USB dock, USB hub, FT8U232AM, FTDI, FT8U245AM, FT8U100AX, USB chips, USB =
+UART, USB FIFO, USB Semiconductors, ASIC design, USB product design"=20
+name=3Dkeywords>
+<META=20
+content=3D"USB RS232 - FTDI designs and supplies USB semiconductor =
+devices with Legacy support including royalty-free drivers. Application =
+areas include USB RS232, ( USB Serial ), USB Parallel, USB Docking =
+Stations, and upgrades of Legacy designs to USB."=20
+name=3Ddescription>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dutf-8"><LINK=20
+href=3D"http://www.ftdichip.com/ftdi.css" type=3Dtext/css =
+rel=3DSTYLESHEET>
+<META content=3D"MSHTML 6.00.2800.1400" name=3DGENERATOR></HEAD>
+<BODY bgColor=3D#ffffff leftMargin=3D0 topMargin=3D0 marginheight=3D"0" =
+marginwidth=3D"0">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD background=3Dhttp://www.ftdichip.com/Images/ftdi_4.gif =
+colSpan=3D2><IMG=20
+      height=3D78 src=3D"http://www.ftdichip.com/Images/ftdi_1.gif" =
+width=3D175><IMG=20
+      height=3D78 src=3D"http://www.ftdichip.com/Images/ftdi_2.gif" =
+width=3D376><IMG=20
+      height=3D78 src=3D"http://www.ftdichip.com/Images/ftdi_3.gif" =
+width=3D94></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD vAlign=3Dtop =
+background=3Dhttp://www.ftdichip.com/Images/ftdi_5.gif><IMG=20
+      height=3D42 src=3D"http://www.ftdichip.com/Images/ftdi_6.gif" =
+width=3D551></TD>
+    <TD vAlign=3Dtop align=3Dright=20
+    background=3Dhttp://www.ftdichip.com/Images/ftdi_5.gif><A=20
+      href=3D"mailto:support@ftdichip.com"><IMG height=3D42=20
+      alt=3Dfred.dart@ftdichip.com =
+src=3D"http://www.ftdichip.com/Images/mail.gif"=20
+      width=3D35 border=3D0></A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR vAlign=3Dtop>
+    <TD width=3D"1%">
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D175 =
+bgColor=3D#6e8bb1 border=3D0>
+        <TBODY>
+        <TR vAlign=3Dtop>
+          <TD width=3D"1%">
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D168 =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/index.html">Home</A> =
+</TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTProduct.htm">Product =
+Data</A>=20
+                </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  =
+href=3D"http://www.ftdichip.com/FTSchema.htm">Schematics</A>=20
+              </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  =
+href=3D"http://www.ftdichip.com/FTProject.htm">Projects</A>=20
+              </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTApp.htm"><FONT=20
+                  color=3D#ba1319>Application Notes</FONT></A> =
+</TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTDriver.htm">Drivers =
+and=20
+                  Utilities</A> </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTEval.htm">Evaluation =
+Kits</A>=20
+                </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  =
+href=3D"http://www.ftdichip.com/FTSupport.htm">Support</A>=20
+</TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTDisti.htm">Sales =
+Network</A>=20
+                </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTNews.htm">FTDI =
+NewsLetter</A>=20
+                </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTASIC.htm">ASIC =
+Design</A>=20
+              </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTDesign.htm">Product =
+Design</A>=20
+                </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  =
+href=3D"http://www.ftdichip.com/FTResource.htm">Resources</A>=20
+              </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/FTLinks.htm">General =
+Links</A>=20
+                </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  =
+href=3D"http://www.ftdichip.com/FTjobs.htm">Vacancies</A> </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  href=3D"http://www.ftdichip.com/under.htm">Web =
+Shop</A> </TD></TR>
+              <TR>
+                <TD =
+onmouseover=3D"this.style.backgroundColor=3D'#92A8C5'"=20
+                onmouseout=3D"this.style.backgroundColor=3D'#6E8BB1'"=20
+                bgColor=3D#6e8bb1 height=3D25>&nbsp; =C2=B7&nbsp; <A =
+class=3Dmenu=20
+                  =
+href=3D"http://www.ftdichip.com/FTCompany.htm">Company</A>=20
+              </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><IMG height=3D29 =
+src=3D"http://www.ftdichip.com/Images/ftdi_21.gif"=20
+            width=3D175></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=3Dtop width=3D"99%"><!-- Start -->
+      <TABLE cellSpacing=3D6 cellPadding=3D0 width=3D"95%" =
+align=3Dcenter border=3D0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD bgColor=3D#ffffcc height=3D30>&nbsp;&nbsp; &nbsp; | =
+&nbsp; <A=20
+                  class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTApp.htm#AppNotes">Application=20
+                  Notes</A> &nbsp; | &nbsp; <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTArticles.htm#1">Magazine=20
+                  Articles</A> &nbsp; | &nbsp; <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTArticles.htm#2">On-Line=20
+                  Articles</A> &nbsp; | &nbsp; <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTArticles.htm#3">On-Line=20
+                  Reviews</A> &nbsp; | &nbsp; <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTArticles.htm#4">Quotes</A>&nbsp;=20
+                  |</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">
+            <P style=3D"TEXT-ALIGN: center"><FONT size=3D4><U><FONT=20
+            color=3D#0096cd><BR>Welcome to the FTDI Application Notes=20
+            Section<BR>&nbsp;</FONT></U></FONT>
+            <DIV align=3Dleft>&nbsp;We have re-organised this section in =
+order to=20
+            make it easier to navigate. Magazine Articles, On-Line =
+Articles,=20
+            On-Line Reviews and Quotes have now been given their own =
+separate=20
+            page. Use the navigation bar above to select the topic of =
+interest=20
+            or <A href=3D"http://www.ftdichip.com/FTArticles.htm">CLICK =
+HERE !</A>=20
+            to be taken to the new page.<BR>&nbsp;</DIV></DIV></TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; NEW April 1st&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; VCP =
+Drivers -=20
+            Enumeration Options under Windows 98</FONT></B><FONT=20
+            face=3DArial><B><FONT color=3D#ff0000>.&nbsp; =
+</FONT></B></FONT><FONT=20
+            face=3DArial size=3D2>A problem that can be encountered with =
+VCP drivers=20
+            running on Windows 98 and Windows ME systems is a delay of=20
+            approximately 30 seconds during device enumeration. FTDI?s =
+VCP=20
+            driver includes a serial enumerator. The function of this =
+enumerator=20
+            is to detect a Plug-and-Play enabled device (such as a =
+serial mouse=20
+            or serial modem) that is attached to the USB serial port. If =
+at=20
+            first the enumerator does not detect an attached device, it =
+may,=20
+            under certain circumstances, continue to try to detect an =
+attached=20
+            device for up to 30 seconds. Some installations do not =
+require=20
+            enumeration, so options are provided to turn this feature =
+off, and=20
+            this note describes these options.<BR></FONT><FONT =
+face=3DArial><BR>*=20
+            </FONT>To download this document in Adobe Acrobat PDF =
+format&nbsp;=20
+            <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/VCP_Win98_EnumOptions.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; NEW March 31st&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; =
+Configuring=20
+            FT232BM Baud rates</FONT></B><FONT face=3DArial><B><FONT=20
+            color=3D#ff0000>.&nbsp; </FONT></B></FONT><FONT face=3DArial =
+size=3D2>One=20
+            of the most basic operations with the FT232BM is setting a =
+baud=20
+            rate. This application note describes the various ways that =
+this can=20
+            be done. It also describes how to use non-standard baud =
+rates with=20
+            the FT232BM, including a technique called 'aliasing' - where =
+one=20
+            baud rate is substituted by the driver in place of another =
+baud=20
+            rate.<BR>The second generation FTDI's FT232BM USB UART IC =
+added=20
+            additional granularity to the divisor used to generate the =
+device=20
+            baud rate. This allows a much larger number of baud rates to =
+be used=20
+            with the FT232BM when compared to its predecessor, the=20
+            FT8U232AM<BR></FONT><FONT face=3DArial><BR>* </FONT>To =
+download this=20
+            document in Adobe Acrobat PDF format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232B-05_BaudRates.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/007/knowledgebase.=
+htm"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232B-05_BaudRates.chm"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; NEW March 31st&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; Using =
+Location=20
+            ID's with FTDI's VCP Drivers</FONT></B><FONT =
+face=3DArial><B><FONT=20
+            color=3D#ff0000>.&nbsp; </FONT></B></FONT><FONT face=3DArial =
+size=3D2>A=20
+            common problem occurs in a manufacturing environment when it =
+is=20
+            required to test serial converter cables by installing them =
+as COM=20
+            ports. When serialized cables are plugged in for testing, =
+the system=20
+            allocates a new COM port for every cable. If the system =
+limit of 256=20
+            COM ports is reached, and the only way to continue testing =
+is to=20
+            free up COM ports by uninstalling then reinstalling.<BR>The =
+problem=20
+            occurs because the serialized cables appear to the system as =
+unique=20
+            devices, each device identified by its serial number, and =
+the serial=20
+            number is used by the VCP driver when it creates a COM port. =
+If the=20
+            serial number was not used to create the COM port, then it =
+would be=20
+            possible setup an environment where every cable installed as =
+the=20
+            same COM port, and therefore only one COM port would be =
+needed to=20
+            test any number of cables. <BR><BR>In this application note =
+we=20
+            describe how to configure the VCP driver to achieve this =
+goal. This=20
+            requires VCP drivers version 2150 or later and Microsoft's =
+USBView=20
+            with location ID support feature built in. Both are =
+available for=20
+            download from this site. <BR></FONT><FONT face=3DArial><BR>* =
+</FONT>To=20
+            download this document in Adobe Acrobat PDF format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/LocIDs.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/006/knowledgebase.=
+htm"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A =
+href=3D"http://www.ftdichip.com/Documents/LocIDs.chm"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; NEW March 17th&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; Data =
+Throughput,=20
+            Latency and Handshaking</FONT></B><FONT =
+face=3DArial><B><FONT=20
+            color=3D#ff0000>.&nbsp; </FONT></B></FONT><FONT face=3DArial =
+size=3D2>The=20
+            Universal Serial Bus may be new to some users and =
+developers. This=20
+            application note tries to describe the major architecture=20
+            differences that need to be considered by both software and =
+hardware=20
+            designers when changing from a traditional RS232 based =
+solution, to=20
+            one that uses the FT232BM USB to serial interface device. =
+Much of=20
+            the information in this application note also applies to the =
+FT245BM=20
+            USB to parallel FIFO interface device.. <BR></FONT><FONT=20
+            face=3DArial><BR>* </FONT>To download this document in Adobe =
+Acrobat=20
+            PDF format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232B-04_DataLatflow.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/005/knowledgebase.=
+htm"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232C-04_DataLatencyFlow.chm" =
+
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; NEW March 17th&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp; Optimising =
+D2XX Data=20
+            Throughput</FONT></B><FONT face=3DArial><B><FONT =
+color=3D#ff0000>.&nbsp;=20
+            </FONT></B></FONT><FONT face=3DArial size=3D2>This note =
+provides=20
+            guidelines for achieving optimal performance over USB from =
+D2XX=20
+            applications.<BR></FONT><FONT face=3DArial><BR>* </FONT>To =
+download=20
+            this document in Adobe Acrobat PDF format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232B-03_D2XXDataThroughput.pd=
+f"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/004/knowledgebase.=
+htm"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232B-03_D2XXDataThroughput.ch=
+m"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; NEW March 15th&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; VCP =
+Driver -=20
+            Modem Emulation Mode</FONT></B><FONT face=3DArial><B><FONT=20
+            color=3D#ff0000>.&nbsp; </FONT></B></FONT><FONT face=3DArial =
+
+            size=3D2>Modem Emulation Mode is a special feature of FTDI's =
+Virtual=20
+            Com Port (VCP) driver that allows binary data to be =
+transmitted over=20
+            a two (or more) wire interface, with full handshaking and =
+modem=20
+            control signalling thus allowing PPP connections to be made. =
+
+            Possible applications include mobile phone data cables, and =
+radio=20
+            links. <BR></FONT><FONT face=3DArial><BR>* </FONT>To =
+download this=20
+            document in Adobe Acrobat PDF format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/ModemEmulation.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/003/modemstates-00=
+2.htm"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/ModemEmulation.chm"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp;<FONT=20
+                  size=3D1>***&nbsp; Updated March 15th&nbsp; 2004&nbsp; =
+
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; =
+Debugging FT232BM=20
+            and FT245BM based Designs</FONT></B><FONT =
+face=3DArial><B><FONT=20
+            color=3D#ff0000>.&nbsp; </FONT></B></FONT><FONT face=3DArial =
+size=3D2>The=20
+            Universal Serial Bus may be new to some developers. The =
+information=20
+            contained in this document is provided to help debug designs =
+which=20
+            use FTDI's FT232BM or FT245BM Integrated Circuit devices and =
+
+            contains helpful tips on what to look for should your design =
+fail to=20
+            operate correctly.&nbsp; Oscilloscope traces are provided to =
+help=20
+            with this. </FONT><FONT face=3DArial><BR><BR>* </FONT>To =
+download this=20
+            document in Adobe Acrobat PDF format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/AN232_245BM_3.pdf" =
+
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/002/an232-245b-002=
+.htm"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/AN232_245BM_3.chm" =
+
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; =
+&nbsp;<FONT=20
+                  size=3D1>***&nbsp; Updated 1st April&nbsp; 2004&nbsp;=20
+                  =
+***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; FT232BM =
+and=20
+            FT245BM Power Control and Pin States</FONT></B><FONT=20
+            face=3DArial><B><FONT color=3D#ff0000>.&nbsp; =
+</FONT></B></FONT><FONT=20
+            face=3DArial size=3D2>USB Bus Powered peripherals ( ones =
+that get their=20
+            power from the USB bus ) have a number of restrictions that =
+can make=20
+            it difficult for a design to meet the mandatory USB 2.0=20
+            requirements. Failure to meet these requirements can result =
+in=20
+            unreliable operation under certain conditions, also a =
+peripheral=20
+            that does not meet these requirements will fail the USB=20
+            certification process and will not be eligible to use the =
+USB=20
+            Certified logo on the product packaging and marketing. In =
+order to=20
+            substantially reduce the effort and cost of meeting these=20
+            requirements, FTDI have incorporated two new features in =
+their BM=20
+            series devices which if used correctly make designing such =
+USB Bus=20
+            Powered peripheral designs straight forward. This document =
+describes=20
+            these features and the pin states in native mode and =
+bit-bang mode=20
+            both during normal operation and in USB suspend =
+state.</FONT><FONT=20
+            face=3DArial><BR><BR>* </FONT>To download this document in =
+Adobe=20
+            Acrobat PDF format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/PinModes2.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To view=20
+            this document on-line in HTML format&nbsp;&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/knowledgebase/AppNotes/001/pinstates.htm"=
+=20
+            target=3D_blank>CLICK HERE !</A><BR><FONT face=3DArial>* =
+</FONT>To=20
+            download this document in Windows Compiled Help ( .chm =
+)&nbsp;=20
+            format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/PinModes2.chm"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD><A name=3DAppNotes></A>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM / =
+FT245BM=20
+                  Application Note <B><FONT color=3D#ff0000>&nbsp; <FONT =
+
+                  size=3D1>***&nbsp; Updated Oct 27th 2002=20
+              ***</FONT></FONT></B></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><B><FONT face=3DArial color=3D#ff0000>&nbsp;&nbsp; =
+</FONT></B><FONT=20
+            face=3DArial><B><FONT color=3D#ff0000>FT232BM / FT245BM Bit =
+Bang Mode.=20
+            </FONT></B>This application note describes the new BIT BANG =
+feature=20
+            of FTDI's new BM series devices and illustrates how it can =
+be used=20
+            to remotely program an FPGA ( Altera FLEX10K series ) over =
+USB.=20
+            Delphi 5 source code is included in the application note. =
+</FONT>To=20
+            download this document in Adobe Acrobat PDF format&nbsp; <A=20
+            =
+href=3D"http://www.ftdichip.com/Documents/AN232-01_BitBang.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT232BM =
+Application Notes=20
+                  <B><FONT color=3D#ff0000>&nbsp; </FONT></B><FONT =
+color=3D#ff0000=20
+                  size=3D1>*** Updated May 20th&nbsp; 2003=20
+            ***</FONT></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify"><FONT =
+face=3DArial>&nbsp;&nbsp; The=20
+            FT232BM is the 2<SUP>nd</SUP> generation of FTDI?s popular =
+USB UART=20
+            device. This device not only adds extra functionality to its =
+
+            predecessor and reduces external component count, but also =
+maintains=20
+            a high degree of pin compatibility with the original, making =
+it easy=20
+            to upgrade or cost reduce existing designs as well as =
+increasing the=20
+            potential for using this device in new application=20
+            areas.<BR><BR></FONT>The <A=20
+            href=3D"http://www.ftdichip.com/Documents/dg232v20.pdf"=20
+            target=3D_blank>FT232BM Designers Guide Revision 2.0</A> is =
+now=20
+            available for download. This contains application schematic=20
+            printouts for the FT232BM device and detailed explanation of =
+the key=20
+            points for each design. To download this document in Adobe =
+Acrobat=20
+            PDF format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/dg232v20.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp; =
+<BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ccffff>&nbsp; FT245BM =
+Application Notes=20
+                  <B><FONT color=3D#ff0000>&nbsp; </FONT></B><FONT =
+color=3D#ff0000=20
+                  size=3D1>*** Updated May 20th&nbsp; 2003=20
+            ***</FONT></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify"><FONT =
+face=3DArial>&nbsp;&nbsp; The=20
+            FT245BM is the 2<SUP>nd</SUP> generation of FTDI?s popular =
+USB FIFO=20
+            device. This device not only adds extra functionality to its =
+
+            predecessor and reduces external component count, but also =
+maintains=20
+            a high degree of pin compatibility with the original, making =
+it easy=20
+            to upgrade or cost reduce existing designs as well as =
+increasing the=20
+            potential for using this device in new application=20
+            areas.<BR><BR></FONT>The <A=20
+            href=3D"http://www.ftdichip.com/Documents/dg245v20.pdf"=20
+            target=3D_blank>FT245BM Designers Guide Revision 2.0</A> is =
+now=20
+            available for download. This contains application schematic=20
+            printouts for the FT245BM device and detailed explanation of =
+the key=20
+            points for each design. To download this document in Adobe =
+Acrobat=20
+            PDF format&nbsp; <A=20
+            href=3D"http://www.ftdichip.com/Documents/dg245v20.pdf"=20
+            target=3D_blank>CLICK HERE !</A><BR>&nbsp; =
+<BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; FT8U232AM =
+&nbsp;&nbsp;=20
+                  AN232-01 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/an232-01.pdf">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"Setting Baud Rates for =
+the=20
+            FT8U232AM" explains how baud rate generation works in the =
+FT8U232AM=20
+            and how divisors are calculated. This is especially =
+important for=20
+            customers who want to use the FT8U232AM at non-standard baud =
+rates=20
+            and explains how to modify the driver INF files to "alias" =
+standard=20
+            Windows baud rates to other values. <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-02 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/AN232-2B.PDF">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"Debug Information for =
+FT8U232/245=20
+            devices" is a guide to debugging new designs based on =
+FT8U232AM and=20
+            FT8U245AM devices. It explains in detail how various signals =
+should=20
+            behave from power-up onwards and includes many captured =
+scope traces=20
+            illustrating what the signals look like and their timing. =
+This=20
+            application note has been updated on 24th November 2001 to =
+include=20
+            corrections, Rev 2 information, and more detailed =
+description of=20
+            reading/writing to the FT8U245. <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-03 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/AN232-03.PDF">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"Installing FT8U232/245 =
+devices=20
+            under Windows '98" is a guide to what the installation of =
+our VCP=20
+            drivers should look like under Windows '98 and information =
+on what=20
+            to look for if installation doesn't go as planned. It =
+includes many=20
+            screen-shots of the installation procedure at different =
+stages.=20
+            Installation under Windows ME and Windows 2000 is similar =
+though the=20
+            screen images may vary slightly from the Windows '98 ones.=20
+            <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-04&nbsp;&nbsp;</TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/AN232-4C.PDF">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"FT8U232 / FT8U245&nbsp; =
+Latency=20
+            and Data Throughput" gives background information on how =
+data is=20
+            handled by the FT8U232 / FT8U245&nbsp; as compared to a =
+legacy=20
+            hardware COM port on a PC. Because the FT8U232 / =
+FT8U245&nbsp; are=20
+            USB devices, data is transferred in packets rather than a =
+byte at a=20
+            time. <FONT color=3D#ff0000>This application note has been =
+updated on=20
+            23rd April 2002. </FONT><BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-05 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/AN232-05.PDF">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"Installing FT8U232/245 =
+Devices=20
+            under Windows 2000" is a step by step guide for installing =
+FTDI's=20
+            VCP drivers under Windows 2000. Screen shots of each step in =
+the=20
+            process are included. <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-06 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/AN232-06.PDF">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"Using Event Characters =
+with=20
+            FT8U2XX" is an introduction to event characters and how they =
+can be=20
+            used to overcome timeout delays in certain applications. =
+Some=20
+            application code is included to show how to set these up =
+under the=20
+            Windows API. <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-07 </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">Application note An232-07 =
+is=20
+            obsolete due to improvements in the new Windows 2000 =
+Uninstaller and=20
+            has been removed from this page. <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-08 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Documents/AN232-8A.PDF">Application&nbsp;=
+Note</A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">"Bus Powered / Self =
+Powered=20
+            Interface Circuits" gives examples of ways to connect the =
+FT8U232 or=20
+            FT8U245 chip for different power and reset configurations =
+with=20
+            explanations of areas where care needs to be taken.=20
+        <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD width=3D"1%"><IMG height=3D22=20
+                  src=3D"http://www.ftdichip.com/Images/pointer_b.gif" =
+width=3D22=20
+                  border=3D0></TD>
+                <TD id=3Dtitle bgColor=3D#ffffcc>&nbsp; All Devices =
+&nbsp;&nbsp;=20
+                  AN232-09 </TD>
+                <TD align=3Dright bgColor=3D#ffffcc><A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/Files/HighPwr.zip">Application&nbsp;Note<=
+/A>=20
+                  &nbsp; </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV style=3D"TEXT-ALIGN: justify">&nbsp;"High Current Bus =
+Powered=20
+            Devices" illustrates the principles involved in designing =
+High=20
+            Current USB Bus Powered Devices using FTDI's FT8U232AM and=20
+            FT8U245AM. High Current USB Bus Powered Devices are devices =
+that=20
+            require to draw over 100mA ( and less than 500mA ) of =
+current from=20
+            the USB Bus. <BR><BR></DIV></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD align=3Dmiddle>&nbsp; | <A class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/index.html">Home</A> | =
+<A=20
+                  class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTProduct.htm">Product =
+Data</A>=20
+                  | <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTSchema.htm">Schematics</A> |=20
+                  <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTProject.htm">Projects</A> | <A=20
+                  class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTApp.htm">Application =
+Notes</A>=20
+                  |<BR>| <A class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTDriver.htm">Drivers =
+and=20
+                  Utilities</A> | <A class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTEval.htm">Evaluation =
+Kits</A>=20
+                  | <A class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTSupport.htm">Support</A> | <A=20
+                  class=3Dblue =
+href=3D"http://www.ftdichip.com/FTDisti.htm">Sales=20
+                  Network</A> |<BR>| <A class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTNews.htm">FTDI =
+NewsLetter</A>=20
+                  | <A class=3Dblue =
+href=3D"http://www.ftdichip.com/FTASIC.htm">ASIC=20
+                  Design</A> | <A class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTDesign.htm">Product =
+Design</A>=20
+                  | <A class=3Dblue=20
+                  href=3D"http://www.ftdichip.com/FTLinks.htm">Links</A> =
+| <A=20
+                  class=3Dblue=20
+                  =
+href=3D"http://www.ftdichip.com/FTDisclaim.htm">Disclaimer</A> |=20
+                </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- =
+Finish --></TD></TR></TBODY></TABLE><BR>
+<DIV align=3Dcenter>Copyright (c) Future Technology Devices Intl Ltd. =
+2002 /=20
+2003</DIV></BODY></HTML>
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_1.gif
+
+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
+ABuwAjuwNREIADs=
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_2.gif
+
+R0lGODlheAFOAPcAAP////39/fv7+/j7/P/81fj4+PP4+/b29u/1+vL09/Pz8/P11PHx8e7u7ufw
++Ofu0+bq7uPo8Nrp9ODn7d3l7drm0c7h8NXd6Mzg787f0Mbd7c/a5cXa5sDa7NDW38vW4sHYz9jQ
+0sfS4bPR6MLO3bTQztXGxbrI2qjL5KjJzbjBzpvD4a2905vCzLq6upi514+83Y+6yqCyyq6uroO0
+2YKzyXyw15KoxHWs1XasyI6kwZ6fspSfsWml0Wmkx2Shz4Gbul6ezVudzVudyF2dxlibzHeStpCN
+joGPpFOYylCWylCWxIGIk26LsUmSyEOOxVGKsHKBkjuJwzeHwoZ3el98pG15jEl3wUx3p2hxgHNu
+cCt2unRoa19pe2ZmZkprkWdhZE1keylorzFlmTxie11ZXD9ciB1jsCNeolFVaDJZfDlYbVROUhhW
+pRtXmCpVcidTj05IZyJUeDZIfxtPhxlLmCZFeg5GlxZFhhpBfiU/cgw9fhg4hSozdRg3dRcyaBMw
+dxsodhYrYRIqbBMoWBciZxUiUP4BAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUUAIcALAAAAAB4AU4A
+AAj/AKcIHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNOfPJEo8ePIEOKHEmypMmTIzlKQcmypcuX
+MGPKnEmQI82bOHPq3MkzpM2eQIMKHUrU5c+iSJMqXcpUoMqmUKNKncryKNWrWLNqVfh0q9evYKFa
+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
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_3.gif
+
+R0lGODlhXgBOANUAAP/////81fP4+/P11Ofw+Ofu09rp9Nrm0c7h8M7f0MDa7MHYz7PR6LTQzqjL
+5KjJzZvD4ZvCzI+83Y+6yoO02YKzyXWs1XasyGml0Wmkx16ezV2dxlibzFOYylCWylCWxEOOxTuJ
+wzeHwv4BAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUUACMALAAAAABeAE4AAAb/QJFw
+SCwaj0JQCMlsOp/QqBQkrVqv2Kx2y42Gvt2wuPpdjs/otHrNbrvf8Lh8Tq/b7/i8fo/2YKAaf0d+
+gBp8QxAAUAiKR4mLCIdCj0+MSJROCJGSmE2Wjo2Zm1EeDgYABAoeRBQIFgQAAgqGRRiMAAYQIggU
+k6Gev0KtsJq0IhoOsAIMHppTp7kKsYIiiagODAICFmUhDrEKpgAMALrVwUifRBgQjBAQq8cCAArt
+sQSjT6cWQxoEBFTOKegngEAZC7gCiqAAoJyvRegeDvGgzZiGefmaYAAgoRZHX/GEfOvwhZFCkQ7P
+Qbz0SwIAakIQZmSSKOSQZRKHIBQEYOZG/3OdmKgr0gkBASMgekYhd2RcTiEbeTIw4iFl0HQRVQ5B
+YKDpTCQM+a0D0EvrkKhCDAgw4hJo1iJDiXSSZlPExq9HkhpQCOJUvKBoz00laPUtkbiIfjHcO6Sv
+UiGEmDAkIAGDhFNlzUJ9mYQRL3baCkPEQJp0wKDfDFSGoGzU1SIUYDUkkFmzXc6JG6LSILqSbt2C
+rlKY11BAK9eGJ2KoayUQTDjOJUmfTr269evYs2vfzr279+/gw4sfT768+fPo06tfz17KhwhOKkSY
+f+FDlgwVpmcI4CRBgggJHBDAA1gAmMcHGxSxX3/wCZHBAAQSAUIGSCUoBIIK2ncEhVYY6P8gf0Js
+UEAAAQwwgRAJkBhAg0f8R8QGAWgIwgIqslgBiQcI4aEIFQyA4wMJoLhAigGcKMWOC4rwwQAN2DdB
+ABd8yGARBxh5wAEJXjBAgwdEACOFHu43AQgfNBBAkCIkMACFN3IIBZIgPpDjEBtYmCQTLhLh4gcx
+DtGjEA1gOYSHCzRARAFoJhChCA2w+ASAZVwAYp5G3IkEpUIEkN9+KqoYYooJUOEhpkCiyOKOjx5Q
+xgNxohminSDi6WgDA1DBp0IbwDehkpqKQKihQxyQ6KmuPrFffiKCCGMDVDyZnwiWttjgBmY+K8KV
+9j2oawAZgDBAfmEWqSSNww5a7BOs4hiL6wY+lmhttEYQSWICFiYh76JmBnCAqK72SCKTEVKKKhQf
+ZFDviwePMeFJImzgJhET7GswCAUY2V4RFB9QQcT7XpwXgIoy7PHIJJds8skop6zyyiy37PLLVnAg
+88w012zzzTjnrPPOPPc8829ABy300EQXbfTRSCet9NJMN+3001BHLfXUVFdt9W9BAAA7
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_6.gif
+
+R0lGODlhJwIqAPcAAP////39/fv7+/35+fj4+Pz29/b29vvz8/Pz8/Hx8fvv8O/v7+fw+O7u7uvr
+6/jn5+jo6OPo8ODn7d3l7eLi4tzc3PLX19Xd6M/a5cvW4tPT08fS4czMzMLO3e3Cw9XGxbrI2sPD
+w8O/zLjBzsu9vK2907q6uuWqq7+ztbS0tJi516Cyyq6urqurq6ioqN+ZmpKoxKqjpaOjo46kwZ6f
+spSfsZ+cnIya0NuJi2Shz4GbupmWllmhxZmQkXeStoGPpJCNjl+TypSGiG6LsYGIk9Nwc4WEhY9/
+gZp6fFGKsHKBkn99f4Z3ejeHwl98pG15jMphY3l3eJducYducUl3waNlaHhxc0x3p2hxgHNucM1W
+WZlkZ4RkZyt2uqhaXXRoa19pe8pMUWZmZkprkYtbX2dhZHRcYchESaROUk1keylor5NRVTFlmTxi
+e11ZXMY9QT9ciB1jsH1OVSNeolFVaKI/RFhSVDJZfMM0OTlYbbQ1NVROUqo1ORhWpRtXmA9YmSpV
+cidTj8ItMrovME5IZ7EvL6svMFBISjZIf8AoLrEqLxtPh78lKRlLmA5PjY0xNrInJ6kmKyZFer4g
+JbIiKEFAQRZFhg1HhQ5GlxpBfiU/crkaH3UrOmMsTpEgJ7cVG6kZGjszWgw9fhg4hboTGSozdRg3
+dU4pOocaHxcyaKAQFV4hKhMwd3gZG2obJZIPFBYrYRsodhIqbCwpKnATHIUOEhMoWBciZ3sNEBUi
+UP4BAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUUALoALAAAAAAnAioA
+AAj/AEkJHEiwoMGDCBMqXMiwocOHECNKNPgoTZ42bdLIsELnCZEVILBoKlXKlKlUKE/CQgkLlq1c
+MG29hBnzls1bsGLpZDUqVilCZMjIMVPnE8FJgt6EWRrmjaBJRidKnUq1qtWJmxgJwvOm6xs8ghht
+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
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/mail.gif
+
+R0lGODlhIwAqAIAAAP///7oTGSH5BAAAAAAALAAAAAAjACoAAAJTjI+py+0Po5y02ouz3rx7B4Ti
+KGqlcmJAECbtmsGtMcPq8dr2JZOyyfoFWaaZy8jz+T7MpvMJjUqn1GpDic1qt9yu9wsOi8fksvmM
+TqvX7LZ7WwAAOw==
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_21.gif
+
+R0lGODlhrwAdAMQAAP///+Po8ODn7d3l7dXd6M/a5cvW4sfS4cLO3brI2rjBzq2906CyypKoxI6k
+wYGbuneStm6Lsf4BAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUU
+ABIALAAAAACvAB0AAAX/YCSOZGmeaKqubOu+cCzPdG3feK7vfO//wKBwSCwaj8ikcslsOp/QZ6MQ
+rVprDUIAcO16VQwtYPwtfx2I7XhtbkMfioF6zXbbkY+FmM7n3v9BDQlyfYV+gIg4DwwGAXOGfYmS
+MouDj5CGk5oqi2mXmJibohEQDguNn6Cqo4gQDQsHAgKqtJCsba6wjrW8obdVuQlaqb3FdL9MD68I
+w8bOtMhDEMoLCQeOxM/ahdE7rgywzdvjxt0wEK6vCgfD2eTv0OYk6A4N4NZy7vD75aPTDa+qHSiA
+jZ/Bg8e6oEtnb4FDBAcOoCqIsKJFPkIWogPY8GHEibsuihxZy6HJkyhRDVqLyJIgtpckY8qEFwIA
+Ow==
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/pointer_b.gif
+
+R0lGODlhFgAWALMAAP////39/fj7/PP4++fw+KjL5JvD4WShz1udzVibzFOYylCWykOOxTeHwv4B
+AgAAACH5BAUUAA4ALAAAAAAWABYAAARCEIBhVrs46wuI3aAmJGGJFWZ6pCYDAmwpxa8E05ht442+
+0z5dLHgb+nhCXq+oZJZcSswqekFRGwHEtaOgSgQFLS8CADs=
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_4.gif
+
+R0lGODlhAQBQAJEAAFibzP///zeHwgAAACH5BAAAAAAALAAAAAABAFAAAAIKlI+py+2/QJi0AAA7
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ftdichip.com/Images/ftdi_5.gif
+
+R0lGODlhAgAuAJEAAP///7oTGf4BAgAAACwAAAAAAgAuAAACDIyPqcvtB6KctNpaAAA7
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ftdichip.com/ftdi.css
+
+BODY {
+	FONT-SIZE: 10px; FONT-FAMILY: arial,tahoma,verdana,Helvetica,sans-serif
+}
+A {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial,helvetica,sans-serif; =
+TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #0096cd
+}
+A:visited {
+	COLOR: #7f9fff; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #636363; TEXT-DECORATION: underline
+}
+A.menu {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: =
+Arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.menu:hover {
+	FONT-SIZE: 11pt; COLOR: #ba1319; FONT-FAMILY: =
+Arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: =
+Arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.menu:active {
+	FONT-SIZE: 11pt; COLOR: #ba1319; FONT-FAMILY: =
+Arial,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.text:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.text:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: underline
+}
+A.text:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.text:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.blue:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #2260b1; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.blue:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.blue:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+A.blue:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #0096cd; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif; TEXT-DECORATION: none
+}
+#Title {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #225478; FONT-FAMILY: =
+arial,tahoma,verdana,helvetica,sans-serif
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: arial,tahoma,verdana,Helvetica,sans-serif
+}
+
+------=_NextPart_000_0030_01C47BF2.4BB4F8F0--

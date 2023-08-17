@@ -1,0 +1,581 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MELANIE_DIALOG DIALOGEX 0, 0, 530, 338
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Melanie"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Quit",IDOK,214,69,45,14
+    EDITTEXT        IDC_AD03,364,115,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    PUSHBUTTON      "Check Position",IDC_AD,145,62,43,23,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO01,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,306,88,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO02,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,324,93,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO03,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,342,100,17,50,
+                    WS_EX_STATICEDGE
+    LTEXT           "MELANIE v 3.0d Prog",IDC_STATIC,437,15,71,8,WS_DISABLED
+    LTEXT           "by Alejandro Alonso-Puig",IDC_STATIC,437,25,79,8,
+                    WS_DISABLED
+    LTEXT           "October 2.006",IDC_STATIC,437,35,46,8,WS_DISABLED
+    LTEXT           "www.quarkrobotics.com",IDC_STATIC,437,45,77,8,
+                    WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,431,7,92,51
+    CONTROL         "Slider1",IDC_SLIDERSERVO04,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,306,176,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO05,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,324,176,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO06,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,342,176,17,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO07,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,306,261,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO08,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,324,256,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO09,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,342,251,17,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO11,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,505,88,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO12,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,487,93,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO13,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,469,101,17,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO14,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,505,176,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO15,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,487,176,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO16,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,469,176,17,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO17,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,505,261,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO18,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,487,256,18,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO19,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,469,251,17,50,
+                    WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_SLIDERSERVO10,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,389,74,48,17,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,361,104,106,199,
+                    WS_EX_STATICEDGE
+    LTEXT           "07",IDC_STATIC,315,251,9,8
+    LTEXT           "08",IDC_STATIC,332,247,9,8
+    LTEXT           "09",IDC_STATIC,350,242,9,8
+    EDITTEXT        IDC_POS07,306,312,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS08,324,306,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS09,342,301,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS17,505,312,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS18,487,306,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS19,469,301,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS16,469,226,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS15,487,226,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS14,505,226,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS06,342,226,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS05,324,226,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS04,306,226,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS11,505,139,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS12,487,144,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS13,469,152,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "17",IDC_STATIC,513,253,9,8
+    LTEXT           "18",IDC_STATIC,495,248,9,8
+    LTEXT           "19",IDC_STATIC,478,243,9,8
+    EDITTEXT        IDC_POS01,306,139,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS02,324,144,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_POS03,342,149,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "11",IDC_STATIC,514,80,9,8
+    LTEXT           "12",IDC_STATIC,495,84,9,8
+    LTEXT           "13",IDC_STATIC,477,92,9,8
+    LTEXT           "01",IDC_STATIC,314,79,9,8
+    LTEXT           "02",IDC_STATIC,332,85,9,8
+    LTEXT           "03",IDC_STATIC,350,92,9,8
+    LTEXT           "04",IDC_STATIC,315,167,9,8
+    LTEXT           "05",IDC_STATIC,332,167,9,8
+    LTEXT           "06",IDC_STATIC,350,167,9,8
+    LTEXT           "14",IDC_STATIC,514,168,9,8
+    LTEXT           "15",IDC_STATIC,495,168,9,8
+    LTEXT           "16",IDC_STATIC,477,168,9,8
+    LTEXT           "10",IDC_STATIC,413,64,9,8
+    EDITTEXT        IDC_POS10,405,92,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD02,364,128,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD01,364,141,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD06,364,192,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD05,364,205,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD04,364,219,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD09,364,261,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD08,364,275,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD07,364,288,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD13,447,115,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD12,447,128,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD11,447,141,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD16,447,192,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD15,447,205,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD14,447,218,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD19,447,261,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD18,447,275,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_AD17,447,288,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "A/D",IDC_STATIC,366,107,14,8
+    LTEXT           "A/D",IDC_STATIC,449,107,14,8
+    LTEXT           "A/D",IDC_STATIC,366,184,14,8
+    LTEXT           "A/D",IDC_STATIC,451,184,14,8
+    LTEXT           "A/D",IDC_STATIC,366,253,14,8
+    LTEXT           "A/D",IDC_STATIC,449,253,14,8
+    PUSHBUTTON      "Save Sequence",IDC_SAVESEQ,101,15,44,29,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Save Position",IDC_SAVEPOS,145,15,43,46,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PAUSE,415,306,21,12,ES_AUTOHSCROLL
+    LTEXT           "Pause",IDC_STATIC,391,308,21,8
+    PUSHBUTTON      "| <",IDC_TOPBACK,13,44,22,17,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "<<",IDC_ALLBACK,35,44,22,17,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "<",IDC_STEPBACK,57,44,22,17,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      ">",IDC_STEPFORWARD,79,44,22,17,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      ">>",IDC_ALLFORWARD,101,44,22,17,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "> |",IDC_TOPFORWARD,123,44,22,17,BS_CENTER | BS_VCENTER,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Sequence Control",IDC_STATIC,7,7,185,82
+    PUSHBUTTON      "Clear Sequence",IDC_CLEARSEQ,13,62,44,23,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Load Sequence",IDC_LOADSEQ,57,62,44,23,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Load over Sequence",IDC_LOADOVERSEQ,101,62,44,23,
+                    BS_MULTILINE,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_SEQNAME,13,30,42,12,ES_AUTOHSCROLL
+    LTEXT           "Seq.File:",IDC_STATIC,13,22,28,8
+    CONTROL         "ON/OFF",IDC_SWITCH,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,214,16,45,43
+    PUSHBUTTON      "Save Inverted Sequence",IDC_SAVEINVSEQ,57,15,44,29,
+                    BS_MULTILINE,WS_EX_CLIENTEDGE
+    GROUPBOX        "Sequence Presets",IDC_STATIC,7,88,193,82
+    PUSHBUTTON      "Up",IDC_PRESET1,80,94,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Down",IDC_PRESET2,79,154,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Forward",IDC_PRESET3,11,125,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Backward",IDC_PRESET4,55,125,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Pre-Walk",IDC_PRESET6,33,111,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Pre-Right",IDC_PRESET7,102,111,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Left",IDC_PRESET8,150,125,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Right",IDC_PRESET9,102,125,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Pos-Walk",IDC_PRESET10,33,138,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Pos-Right",IDC_PRESET11,102,138,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,11,108,185,1
+    PUSHBUTTON      "Pre-Left",IDC_PRESET12,150,111,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Pos-Left",IDC_PRESET13,150,138,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,11,151,185,1
+    GROUPBOX        "Seq. Presets Sets",IDC_STATIC,203,88,86,81
+    PUSHBUTTON      "Up - Fwd - Right 45º - Fwd - Down",IDC_PRESETSET1,214,
+                    102,65,22,BS_MULTILINE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Up - F- R - F - Down (Short)",IDC_PRESETSET2,214,126,66,
+                    21,BS_MULTILINE,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_SERVO1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,306,
+                    78,8,10
+    CONTROL         "",IDC_SERVO2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,
+                    84,8,10
+    CONTROL         "",IDC_SERVO3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,342,
+                    92,8,10
+    CONTROL         "",IDC_SERVO4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,306,
+                    167,8,10
+    CONTROL         "",IDC_SERVO5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,
+                    167,8,10
+    CONTROL         "",IDC_SERVO6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,342,
+                    167,8,10
+    CONTROL         "",IDC_SERVO7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,306,
+                    251,8,10
+    CONTROL         "",IDC_SERVO8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,324,
+                    247,8,10
+    CONTROL         "",IDC_SERVO9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,342,
+                    241,8,10
+    CONTROL         "",IDC_SERVO10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,403,
+                    63,8,10
+    CONTROL         "",IDC_SERVO11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,505,
+                    79,8,10
+    CONTROL         "",IDC_SERVO12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,487,
+                    84,8,10
+    CONTROL         "",IDC_SERVO13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,469,
+                    92,8,10
+    CONTROL         "",IDC_SERVO14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,506,
+                    167,8,10
+    CONTROL         "",IDC_SERVO15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,488,
+                    167,8,10
+    CONTROL         "",IDC_SERVO16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,469,
+                    167,8,10
+    CONTROL         "",IDC_SERVO17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,505,
+                    252,8,10
+    CONTROL         "",IDC_SERVO18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,487,
+                    247,8,10
+    CONTROL         "",IDC_SERVO19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,469,
+                    242,8,10
+    LTEXT           "01",IDC_STATIC,402,143,9,8
+    LTEXT           "02",IDC_STATIC,401,131,9,8
+    LTEXT           "03",IDC_STATIC,401,118,9,8
+    LTEXT           "04",IDC_STATIC,401,220,9,8
+    LTEXT           "05",IDC_STATIC,401,207,9,8
+    LTEXT           "06",IDC_STATIC,401,194,9,8
+    LTEXT           "07",IDC_STATIC,401,290,9,8
+    LTEXT           "08",IDC_STATIC,401,278,9,8
+    LTEXT           "09",IDC_STATIC,401,263,9,8
+    LTEXT           "11",IDC_STATIC,419,143,9,8
+    LTEXT           "12",IDC_STATIC,419,130,9,8
+    LTEXT           "13",IDC_STATIC,419,117,9,8
+    LTEXT           "14",IDC_STATIC,419,220,9,8
+    LTEXT           "15",IDC_STATIC,419,207,9,8
+    LTEXT           "16",IDC_STATIC,419,194,9,8
+    LTEXT           "17",IDC_STATIC,419,290,9,8
+    LTEXT           "18",IDC_STATIC,419,277,9,8
+    LTEXT           "19",IDC_STATIC,419,263,9,8
+    EDITTEXT        IDC_CURR02,382,128,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR01,382,141,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR06,382,192,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR05,382,205,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR04,382,219,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR09,382,261,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR08,382,275,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR07,382,288,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Curr",IDC_STATIC,384,107,14,8
+    LTEXT           "Curr",IDC_STATIC,384,184,14,8
+    LTEXT           "Curr",IDC_STATIC,384,253,14,8
+    EDITTEXT        IDC_CURR12,429,128,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR11,429,141,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR16,429,192,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR15,429,205,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR14,429,218,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR19,429,261,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR18,429,275,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR17,429,288,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Curr",IDC_STATIC,431,107,14,8
+    LTEXT           "Curr",IDC_STATIC,433,184,14,8
+    LTEXT           "Curr",IDC_STATIC,431,253,14,8
+    PUSHBUTTON      "Current Check",IDC_CURRCHK,389,236,50,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "All Servos On",IDC_ALLON,274,52,67,10
+    PUSHBUTTON      "All Servos Off",IDC_ALLOFF,274,63,67,10
+    GROUPBOX        "Wave gen mov",IDC_STATIC,7,175,64,156,WS_GROUP
+    CONTROL         "Wave 1",IDC_Wave1,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,14,185,41,10
+    CONTROL         "Wave 2",IDC_Wave2,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,14,195,41,10
+    PUSHBUTTON      "Up",IDC_WAVE_UP,14,248,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Down",IDC_WAVE_DOWN,14,274,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Forward",IDC_WAVE_FWD,14,261,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Obstacles 1",IDC_OBSTACLESCHK,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,14,205,53,10
+    PUSHBUTTON      "Batt Stat",IDC_BATTSTATUS,373,168,37,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_VoltPow,433,168,18,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "Power",IDC_STATIC,432,160,21,8
+    EDITTEXT        IDC_VoltLog,412,168,18,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "Logic",IDC_STATIC,412,160,18,8
+    PUSHBUTTON      "Up - Fwd - Down",IDC_WAVE_PRESET,14,287,44,27,
+                    BS_MULTILINE,WS_EX_CLIENTEDGE
+    LTEXT           "LEG-1",IDC_STATIC,268,306,21,8
+    LTEXT           "LEG-2",IDC_STATIC,268,280,21,8
+    LTEXT           "LEG-3",IDC_STATIC,268,254,21,8
+    LTEXT           "LEG-4",IDC_STATIC,268,228,21,8
+    LTEXT           "LEG-5",IDC_STATIC,268,202,21,8
+    LTEXT           "LEG-6",IDC_STATIC,268,176,21,8
+    EDITTEXT        IDC_Sensit1,267,314,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Sensit2,267,288,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Sensit3,267,263,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Sensit4,267,236,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Sensit5,267,210,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Sensit6,267,184,21,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STEPS,36,232,21,12,ES_AUTOHSCROLL
+    LTEXT           "Steps",IDC_STATIC,15,234,19,8
+    PUSHBUTTON      "Legs Contact Test",IDC_TEST,274,16,67,9
+    EDITTEXT        IDC_CURR03,382,115,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CURR13,429,115,18,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_EDIT1,357,25,59,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,357,36,59,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,357,47,59,11,ES_AUTOHSCROLL
+    PUSHBUTTON      "Light Test",IDC_TEST2,274,25,67,9
+    LTEXT           "T1",IDC_STATIC,346,26,10,8
+    LTEXT           "T2",IDC_STATIC,346,38,10,8
+    LTEXT           "T3",IDC_STATIC,346,49,10,8
+    CONTROL         "",IDC_LEGPRESS1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    357,16,8,8
+    CONTROL         "",IDC_LEGPRESS2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    367,16,8,8
+    CONTROL         "",IDC_LEGPRESS3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    377,16,8,8
+    CONTROL         "",IDC_LEGPRESS4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    387,16,8,8
+    CONTROL         "",IDC_LEGPRESS5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    397,16,8,8
+    CONTROL         "",IDC_LEGPRESS6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    407,16,8,8
+    CONTROL         "Obstacles 2",IDC_OBSTACLESCHK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,14,215,53,10
+    PUSHBUTTON      "Head Test",IDC_TEST3,274,34,67,9
+    CONTROL         "Sensing",IDC_Sensing,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,217,59,44,10
+    PUSHBUTTON      "Pack",IDC_PRESET5,150,153,44,13,BS_MULTILINE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Walk arround",IDC_WALK,214,149,66,14,0,WS_EX_CLIENTEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Melanie MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Melanie\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Melanie.EXE\0"
+            VALUE "ProductName", "Melanie Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MELANIE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 523
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 331
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Melanie.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Melanie.ico"
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Melanie.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,26 @@
+1-Enciendo PC
+2-Entr en mi perfil
+3-Verifico volumen en 4
+4-Conecto audio Sam
+5-Enciendo Sam
+6-Conecto video
+7-Pongo pantalla extendida
+8-conecto cable concentrador en puerto de abajo USB
+9 caja melanie ON
+10 Abro Administrador de dispositivos, sección puertos
+11 conecto blanco de Melanie a USB superior del PC. Aparece como USB Serial Port (COM4)
+12 Conecto negro de Melanie a un puerto del concentrador. Aparece como Plolific USB-to-Serial Comm Port (COM2) 
+13 Sin encender a Melanie, arrancar su programa. Debería arrancar sin problemas
+14 Conecto USB-I2C de Sam a concentrador. Aparece como USB Serial Port (COM7)
+15 Conecto USB-Serie de Sam a concentrador. Aparece como CP210x USB to UART Controller (COM6)
+16 Arranco aplicación Sam. Verificar que no da errores en interfaces de cabeza
+17 Muevo cuello con canvas (veridicación serie)
+18 Enciendo y apago luces (verificación I2C)
+19 pulso decir (verificación audio)
+20 Enciendo Melanie
+21 En su aplicación pulso ON/OFF. Si da un error I2C, arrancar de nuevo la aplicación y desactivar el modo sensorial antes de pulsar ON/OFF
+22 Muevo la cabeza (verificación canal serie)
+23 Verifico los sensores táctiles de patas (canal I2C)
+24 Chequeo estado de baterías
+
+TODO LISTO

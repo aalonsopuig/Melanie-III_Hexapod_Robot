@@ -1,0 +1,78 @@
+EAGLE Version 4.11 Copyright (c) 1988-2003 CadSoft
+
+Electrical Rule Check for C:/Program Files/EAGLE-4.11/projects/Melanie/Melanie-AD.sch at 14/04/2004 02:01:29 
+
+WARNING: Sheet 1/1: unconnected Pin: I/O-10 S
+WARNING: Sheet 1/1: unconnected Pin: A/D-9 S
+WARNING: Sheet 1/1: unconnected Pin: A/D-10 S
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD6 OSC
+WARNING: Sheet 1/1: POWER Pin AD6 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD7 OSC
+WARNING: Sheet 1/1: POWER Pin AD7 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD5 OSC
+WARNING: Sheet 1/1: POWER Pin AD5 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD8 OSC
+WARNING: Sheet 1/1: POWER Pin AD8 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD1 OSC
+WARNING: Sheet 1/1: POWER Pin AD1 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD2 OSC
+WARNING: Sheet 1/1: POWER Pin AD2 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD3 OSC
+WARNING: Sheet 1/1: POWER Pin AD3 AGND connected to VSS
+ERROR: Sheet 1/1: unconnected INPUT Pin: AD4 OSC
+WARNING: Sheet 1/1: POWER Pin AD4 AGND connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC12 GND1 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC12 GND2 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC12 VCC2 connected to VCCSERVOS
+WARNING: Sheet 1/1: POWER Pin IC12 VCC1 connected to VDD
+WARNING: Sheet 1/1: POWER Pin IC12 GND3 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC12 GND4 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC13 GND1 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC13 GND2 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC13 VCC2 connected to VCCSERVOS
+ERROR: Sheet 1/1: no SUPPLY for POWER Pin IC13 VCC1
+WARNING: Sheet 1/1: POWER Pin IC13 GND3 connected to VSS
+WARNING: Sheet 1/1: POWER Pin IC13 GND4 connected to VSS
+WARNING: Only 1 Pin on net IO9
+WARNING: Only 1 Pin on net N$29
+WARNING: Sheet 1/1, Net N$7: missing Junction at (0.2 -1.9)
+WARNING: Sheet 1/1: Nets VREF-POT and VDD too close at (0.3 0.3)
+WARNING: Sheet 1/1: Nets VREF-POT and VDD too close at (-1.1 0.3)
+WARNING: Sheet 1/1: Nets VREF-POT and VDD too close at (3.2 0.3)
+WARNING: Sheet 1/1: Nets VREF-POT and VDD too close at (1.7 0.3)
+WARNING: Sheet 1/1: Nets VDD and CURR5 too close at (1.3 1.5)
+WARNING: Sheet 1/1: Nets VDD and CURR6 too close at (1.3 1.4)
+WARNING: Sheet 1/1: Nets VSS and P1 too close at (1.3 4.9)
+WARNING: Sheet 1/1: Nets VSS and N$22 too close at (1.3 5.1)
+WARNING: Sheet 1/1: Nets VSS and VCCSERVOS too close at (1.3 4.7)
+WARNING: Sheet 1/1: Nets VSS and P2 too close at (2.5 4.9)
+WARNING: Sheet 1/1: Nets VSS and N$23 too close at (2.5 5.1)
+WARNING: Sheet 1/1: Nets VSS and VDD too close at (2.5 4.7)
+WARNING: Sheet 1/1: Nets VSS and P6 too close at (4.7 4.9)
+WARNING: Sheet 1/1: Nets VSS and VDD too close at (4.7 4.7)
+WARNING: Sheet 1/1: Nets VSS and N$26 too close at (3.5 5.1)
+WARNING: Sheet 1/1: Nets VSS and P5 too close at (3.5 4.9)
+WARNING: Sheet 1/1: Nets VSS and VCCSERVOS too close at (3.5 4.7)
+WARNING: Sheet 1/1, Net VREF-POT: wire overlaps pin at (-1.1 0.3)
+WARNING: Sheet 1/1, Net VREF-POT: wire overlaps pin at (0.3 0.3)
+WARNING: Sheet 1/1, Net VREF-POT: wire overlaps pin at (1.7 0.3)
+WARNING: Sheet 1/1, Net VREF-POT: wire overlaps pin at (3.2 0.3)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (3.5 5.1)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (3.5 4.9)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (3.5 4.7)
+WARNING: Sheet 1/1, Net N$29: wire overlaps pin at (4.65 5.1)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (4.7 5.1)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (4.7 4.9)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (4.7 4.7)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (1.3 5.1)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (1.3 4.9)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (1.3 4.7)
+WARNING: Sheet 1/1, Net VDD: wire overlaps pin at (2.45 6.1)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (2.5 5.1)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (2.5 4.9)
+WARNING: Sheet 1/1, Net VSS: wire overlaps pin at (2.5 4.7)
+
+No board loaded - consistency has not been checked
+
+    9 errors
+   60 warnings
